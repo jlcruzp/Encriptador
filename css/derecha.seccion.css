@@ -1,0 +1,99 @@
+.seccionderecha{
+    display:flex;
+    justify-content: center;   
+}
+
+.derecha_output_mensaje{
+    width: 450px;
+    height: 84vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../Imagenes/Rectangle\ 1.png);
+    border-radius: 2rem;
+
+}
+
+.muneco{
+    display:flex;
+    width: 300px;
+    margin: 1rem auto;
+}
+
+#textToEncode{
+    position:relative;
+    left:2.5rem;
+    top:-12rem;
+    width: 80%;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    font-weight: lighter;
+    color:black;
+    text-align: center;
+    background:none;
+    border-color: #e5e5e5;
+    border: 0mm;
+}
+
+#nomensaje{
+    width: 350px;
+    height: 150px;
+    display:flex;
+    margin: 1rem auto;
+    
+}
+
+
+
+@media only screen and (max-width:450px) {
+
+        .seccionderecha{
+            width: 100vw;
+            margin: 0;
+            padding:0;
+        }
+
+        .derecha_output_mensaje{
+            width: 100vw;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            margin:0;
+            padding:0;
+        }
+
+    #textToEncode{
+        width: 100vw;
+        position:relative;
+        left:-3px;
+        top:-100px;
+        height: 50vh;
+        resize:vertical;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 4vw;
+         font-weight: 400;
+         line-height: 150%;
+
+        color: #0A3871;
+        background: white;
+        border: 0mm;
+        border-radius: 2rem;
+        }
+
+
+        .muneco{
+            display:none;
+        }
+
+        #nomensaje{
+            position:relative;
+            top:-200px;
+        }
+       
+
+
+}

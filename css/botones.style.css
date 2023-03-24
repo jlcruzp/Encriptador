@@ -1,0 +1,131 @@
+
+.botones{
+    width: 90%;
+    height: 10vh;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 1rem;
+}
+
+.cta {
+    transition: all 1s ease;
+    border: none;
+    background: none;
+   }
+
+   .cta span {
+    display:inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #0A3871;
+   }
+   
+   .cta:hover {
+    cursor:pointer;
+   }
+   
+   .cta:active {
+    transform: scale(0.85);
+   }
+
+
+   .cta1 {
+    transition: all 1s ease;
+    border: none;
+    background: none;
+   }
+
+   .cta1 span {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #0A3871;;
+   }
+    
+   
+   .cta1:hover{
+    cursor:pointer;
+   }
+      
+   .cta1:active {
+    transform: scale(0.85);
+   }
+
+
+   .cta2 {
+    display:flex;
+    transition: all 1s ease;
+    border: none;
+    background: none;
+    justify-content: center;
+    margin-bottom: 1rem;
+   }
+   
+     
+   .cta2 span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #0A3871;
+   }
+   
+   
+   .cta2:hover{
+
+    cursor:pointer;
+   }
+   
+   .cta2:active {
+    transform: scale(0.95);
+   }
+
+
+   @media only screen and (max-width:450px) {
+
+   .botones{
+    width: 100vw;
+    padding:0rem;
+    margin:0 auto;
+    justify-content: space-around;
+    
+}
+
+.cta{
+    width: 40vw;
+    text-align:center;
+    margin: 0 auto;
+    
+}
+
+.cta span{
+    font-size: 6.5vw;
+}
+
+
+.cta1{
+    width: 40vw;
+    text-align:center;
+    margin: 0 auto;
+ 
+}
+
+.cta1 span{
+    font-size: 6vw;
+}
+
+
+.cta2{
+  
+    position:relative;
+    top:-70px;
+    width: 100%;
+    text-align: center;
+      
+}
+
+   }

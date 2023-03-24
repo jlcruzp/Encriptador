@@ -1,0 +1,178 @@
+    
+   .page{
+    display:flex;
+    width: 90vw;
+
+}
+   .frame5{
+    position:absolute;
+    width: 20rem;
+    height: 7rem;
+    left:18rem;
+    top:51rem;
+    display:none;
+   }
+
+
+
+   
+
+
+body{
+    background:#E9ECF8;
+    
+}
+
+
+
+@media only screen and (max-width:450px) {
+
+      .page{
+        flex-direction: column;
+        width: 100vw;
+
+      }
+   
+
+       
+
+    body{
+    background: #E9ECF8;
+    
+    } 
+        
+  
+}
+
+@media only screen and (min-width:451px) and (max-width:913px) {
+
+    main, .seccionizquierda, html, header, head{
+        width: 100%;
+    }
+
+   
+    .input-padron{
+        width: 90%;
+        font-weight: lighter;
+        text-align: justify;
+        margin-left: 4rem;
+        padding-left: 0rem;
+        font-size: 3rem;
+    }
+    .solominusculas{
+        width: 100%;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .botones{
+        display: inline-block;
+        width: 100%;
+        padding:0rem;
+        margin:4rem 0rem; 
+        
+    }
+    .cta{
+        width: 48%;
+        display:inline-block;
+        font-size:1.75rem;
+        text-align:center;
+        margin:0rem;
+        padding: 0rem;
+    }
+    .cta:hover{
+
+        width: 48%;
+        text-align: center;
+    }
+    
+    .cta1{
+        width: 48%;
+        font-size: 1.75rem;
+        display: inline-block;
+        text-align:center;
+        margin: 0rem 0;
+        padding: 0rem;
+    }
+    .cta1:hover{
+        width: 48%;
+        text-align: center;
+       }
+
+       #textToEncode{
+        width: 96%;
+        height: 28rem;
+        position: absolute;
+        left:2rem;
+        top:52rem;
+        resize: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        font-weight: lighter;
+        color:black;
+        text-align: center;
+        background: white;
+        border-color: #e5e5e5;
+        border: 0mm;
+        border-radius: 2rem;
+        padding: 0;
+        margin: 0;
+        }
+
+    body{
+    background: #E9ECF8;
+    
+    } 
+        
+    .muneco, #nomensaje, .frame5{
+        display:none;
+    }
+    .rectangulomensaje{
+        display:none;
+    }
+    
+  
+    #frame7{
+        display:block;
+        width: 60%;
+        position: absolute;
+        top:60rem;
+        left:13rem;
+        text-align: center;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      #frame7 h2{
+        font-weight: bold;
+        
+      }
+
+      #frame7 h4{
+        font-size: 1.75rem;
+      }
+   
+    .seccionderecha{
+        width: 0%;
+    }
+    .cta2{
+        display:inline-block;
+        width: 100%;
+        top: 84rem;
+        left:0rem;
+        text-align: center; 
+        margin:0rem;
+        padding: 0rem;
+          
+    }
+    .cta2:hover{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+}

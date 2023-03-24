@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width" />
+                <title>Encriptador</title>
+                <link rel="stylesheet" href="./css/reset.css">
+                <link rel="stylesheet" href="./css/encriptador.css">
+                <link rel="stylesheet" href="./css/header.style.css">
+                <link rel="stylesheet" href="./css/izquierda.seccion.css">
+               <link rel="stylesheet" href="./css/botones.style.css">
+                <link rel="stylesheet" href="./css/derecha.seccion.css">
+            </head>
+
+<body>
+
+        <header>
+          
+            <img src= "Imagenes/Logo.png" class="logo">
+
+         </header>
+
+            <main>
+                
+              <section class="page">
+              <div class="seccionizquierda">
+                      <figure class="izquierda_input_padron">
+                        <textarea class="input-padron" cols="18" rows="6" spellcheck="false" id="mensaje" required>Ingrese el texto aquí</textarea>      
+                        <h3 class="solominusculas" spellcheck="false">⚠ Sólo letras minúsculas y sin acentos.</h3>   
+                  
+                      </figure>
+
+                      <div class="botones">
+                        <button class="cta">
+                       <span>Encriptar</span>
+                     </button>
+                                 
+                     <button class="cta1">
+                       <span>Desencriptar</span>
+                     </button>
+                   </div>  
+                
+              </div>
+
+              <div class="seccionderecha">
+                   <figure class="derecha_output_mensaje">
+                    <textarea cols="10" rows="8" spellcheck="false"id="textToEncode" disabled></textarea>
+                    <img id= "munecote" src= "Imagenes/Muñeco.png" class="muneco">
+                    <img id= "nomensaje" src= "Imagenes/Frame 4.png">
+                    
+                                    
+                  <button class="cta2">
+                    <span>Copiar</span>
+                  </button>
+             
+                  </figure>          
+
+            </div>
+
+          </section>
+
+              
+             
+              
+                
+            </main>
+
+    <script type= module src="./js/code.function.js"></script>
+
+
+
+</Body>
+
+
+
+</html>
